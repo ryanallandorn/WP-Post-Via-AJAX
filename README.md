@@ -1,0 +1,1 @@
+# WP Post Via Ajax Shortcode
