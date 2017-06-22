@@ -7,8 +7,6 @@
 /* Enqueue JS
 ----- */ 
 
-// test
-
 function pva_scripts() {
 	wp_register_script( 'pva-js', plugin_dir_url( __FILE__ ) . 'pva.js', array( 'jquery' ), '', true );
 	wp_localize_script( 'pva-js', 'pva_params', array( 'pva_ajax_url' => admin_url( 'admin-ajax.php' ) ) );
